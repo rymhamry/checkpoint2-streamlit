@@ -122,7 +122,7 @@ with open('model.pkl', 'rb') as f:
 joblib.dump(model, 'model.pkl')
 
 # Load model
-model = joblib.load('model.pkl')
+#model = joblib.load('model.pkl')
 
     
    

@@ -8,7 +8,7 @@ Makefile.in
 /ylwrap
 .deps/
 .dirstamp
-
+model.joblib
 # http://www.gnu.org/software/autoconf
 
 autom4te.cache
@@ -32,6 +32,7 @@ autom4te.cache
 # https://www.gnu.org/software/libtool/
 
 /ltmain.sh
+model.joblib
 
 # http://www.gnu.org/software/texinfo
 

@@ -12,7 +12,8 @@ import joblib
 
 def app():
     st.title('Financial Inclusion in Africa')
-    model = joblib.load('model.pkl')
+    
+    #model = joblib.load('model.pkl')
     loader1 = st.file_uploader('Upload file')
     if loader1:
         df = pd.read_csv(loader1)
