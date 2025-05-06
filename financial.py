@@ -9,7 +9,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
 # Load your dataset (replace 'your_data.csv' with your actual file)
-df = pd.read_csv (r'C:\Users\HP\Pictures\Camera Roll\doc formation\streamlit\.venv\checkpoint2-streamlit\Financial_inclusion_dataset.csv')
+df = pd.read_csv('Financial_inclusion_dataset.csv')
+
 
 # Display first few rows
 print("First 5 rows:")
